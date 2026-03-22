@@ -11,9 +11,9 @@
   實現靈活的 `device = torch.device("cpu")` 切換邏輯，確保程式碼在不同設備上的穩定性。
 
 2. Hugging Face 情緒分析
-多國語言模型：** 使用 `transformers` 庫載入 `lxyuan/distilbert-base-multilingual-cased-sentiments-student`。
+多國語言模型：使用 `transformers` 庫載入 `lxyuan/distilbert-base-multilingual-cased-sentiments-student`。
 邊界測試案例 ：針對台灣網路迷因進行情緒測試。
-分析結論：發現純學術/維基百科訓練的模型對在地文化脈絡及諷刺語氣的理解限制，強調了未來進行模型微調的重要性。
+分析結論：發現純學術/維基百科訓練的模型對在地文化脈絡及諷刺語氣的理解限制，強調了模型微調的重要性。
 
 
 二、開發環境與工具
